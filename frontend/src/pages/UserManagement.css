@@ -1,0 +1,54 @@
+.user-management {
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 64px);
+  padding: 2rem;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+
+.user-list {
+  margin-top: 2rem;
+}
+
+.user-list h2 {
+  font-size: 2.5rem;
+  color: #065f46;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.user-list li:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-list li span {
+  display: block;
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
