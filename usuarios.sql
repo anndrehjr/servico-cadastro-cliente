@@ -44,8 +44,6 @@ CREATE TABLE `usuarios` (
 -- Despejando dados para a tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `email`, `created_at`, `data_nascimento`, `cpf`, `telefone`, `endereco`, `cidade`, `estado`) VALUES
-(10, 'andreeee', 'anndreh01@gmail.com', '2025-01-30 20:20:27', '2025-01-14', '41526011225', '18996791377', 'A', 'sao paulo', 'sp');
 
 --
 -- Índices para tabelas despejadas
